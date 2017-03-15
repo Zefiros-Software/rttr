@@ -7,7 +7,9 @@ project "RTTR"
         "src/rttr/**.h"
     }
     
-    zpm.export [[
-        includedirs "src/"
+    zpm.export(function()
+    
+        includedirs "src"
         flags "C++11"
-    ]]
+    
+    end)
