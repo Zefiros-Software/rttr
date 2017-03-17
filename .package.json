@@ -1,2 +1,5 @@
 {
+    "name": "Zefiros-Software/rttr",
+    "postextract": "rttr.lua",
+    "requires": []
 }
